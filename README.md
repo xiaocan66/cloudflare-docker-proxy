@@ -16,7 +16,7 @@
 1. use cloudflare worker host: only support proxy one registry
    ```javascript
    const routes = {
-     "${docker-proxy}.${lizican123}.workers.dev/": "https://registry-1.docker.io",
+     "${cloudflare-docker-proxy}.${lizican123}.workers.dev/": "https://registry-1.docker.io",
    };
    ```
 2. use custom domain: support proxy multiple registries route by host
